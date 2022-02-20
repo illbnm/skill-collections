@@ -9,10 +9,10 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import java.util.Map;
 
 /**
- * Ioc容器
+ *  Bean Factory Ioc容器
  * @Author: dongmengyang
  */
-public class IocContainerDemo {
+public class BeanFactoryAsIocContainerDemo {
     public static void main(String[] args) {
         //创建beanFactory容器
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
