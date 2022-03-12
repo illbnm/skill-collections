@@ -17,6 +17,10 @@ public class JDKInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return DealSomething.class.getMethod(method.getName(),ClassLoaderUtils.getClazzByArgs(args)).invoke(doSomething, args));
+    return  null;
     }
+
+
 }
+
+ 
