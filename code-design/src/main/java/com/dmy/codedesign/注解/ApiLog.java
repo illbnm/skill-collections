@@ -14,8 +14,8 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD})
 @Documented
-public @interface TimeLog {
+public @interface ApiLog {
 
-    String value() default "" ;
+    String methodName() default "";
 
 }
