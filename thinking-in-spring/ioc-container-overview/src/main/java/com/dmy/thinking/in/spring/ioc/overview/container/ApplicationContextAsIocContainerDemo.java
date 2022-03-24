@@ -22,9 +22,11 @@ public class ApplicationContextAsIocContainerDemo {
         //将当前类作为配置类
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(ApplicationContextAsIocContainerDemo.class);
-        //启动应用上下文
+        //启动流程:启动应用上下文
         context.refresh();
         getColleectBeansByType( context);
+        //关闭
+        context.close();
 
     }
 
