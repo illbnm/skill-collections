@@ -1,6 +1,7 @@
 package com.dmy.codedesign.AbstractFactory;
 
 import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
 
 /**
  * 抽象工厂代理类
@@ -9,10 +10,6 @@ import java.lang.reflect.InvocationHandler;
  */
 public class JdkProxy {
 
-    public static <T> T getProxy(Class<T> interfaceClass, DealSomething dealSomething) {
-        InvocationHandler handler = new JDKInvocationHandler(dealSomething);
-        return null;
-    }
 
 
 }

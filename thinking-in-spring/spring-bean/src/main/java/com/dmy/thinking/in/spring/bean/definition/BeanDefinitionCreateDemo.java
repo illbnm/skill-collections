@@ -27,8 +27,6 @@ public class BeanDefinitionCreateDemo {
         propertyValues.addPropertyValue("id",95027);
         propertyValues.addPropertyValue("name","张三");
         genericBeanDefinition.setPropertyValues(propertyValues);
-
-
         System.out.println();
 
 
